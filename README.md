@@ -1,3 +1,4 @@
+**This game is fully automatic where we can just obsere/watch how player 2 will improve its stratergy to win over time using "Q-Learning".**
 # Q-Learning in Reinforcement Learning
 
 ## Project Overview
@@ -58,7 +59,7 @@ python Q_learninginRL.py
 
 ### 4. Gameplay Instructions
 
-- **Player 1**: The human player uses 'X' and interacts with the game by clicking on the grid.
+- **Player 1**: The random(move taking it self) player uses 'X' and interacts with the game by random symbol given by it self on the grid.
 - **Player 2 (AI)**: The AI-controlled player uses 'O'. The AI decides its next move using the Q-learning algorithm.
 - The game will continue until one player wins, the board is full resulting in a tie, or the user quits.
 
@@ -86,7 +87,7 @@ python Q_learninginRL.py
 - Checks if the board is full and there is no winner, resulting in a tie.
 
 ### 8. `handle_click(x, y)`
-- Handles the player’s click to make a move (Player 1's turn).
+- generat the rendom moves for player1 (Player 1's turn).
 
 ### 9. `ai_move()`
 - The AI chooses its move using Q-learning. It either explores (chooses a random move) or exploits (chooses the best-known move based on Q-values).
@@ -115,6 +116,14 @@ Where:
 - \(\alpha\) is the learning rate
 - \(\gamma\) is the discount factor
 - \(\max_a Q(s', a)\) is the maximum expected future reward from the next state \(s'\)
+
+### Some rules for the game of tic-tac-toe:
+
+**Board:** The game is played on a 3-by-3 grid. 
+**Players:** Two players take turns marking the grid with X or O. X always goes first, for first game after that who wins it will take first chance to draw it's symbol.
+**Objective:** The first player to get three marks in a row (up, down, across, or diagonally) wins. 
+**Tie:** If all nine squares are filled and no player has three marks in a row, the game ends in a tie, also known as a cat game. 
+**Strategy:** Tic-tac-toe is a solved game, meaning there's a strategy to win every time. However, if both players use the same strategy, the game will always end in a draw. 
 
 ## Project Structure
 
