@@ -117,7 +117,7 @@ Where:
 - \(\gamma\) is the discount factor
 - \(\max_a Q(s', a)\) is the maximum expected future reward from the next state \(s'\)
 
-### Some rules for the game of tic-tac-toe
+## Some rules for the game of tic-tac-toe
 
 - **Board:** The game is played on a 3-by-3 grid. 
 - **Players:** Two players take turns marking the grid with X or O. X always goes first, for first game after that who wins it will take first chance to draw it's symbol.
