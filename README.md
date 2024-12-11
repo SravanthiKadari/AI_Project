@@ -130,11 +130,3 @@ AI_Project/
 
 - **Pygame**: A set of Python modules designed for writing video games, used to render the graphical interface of the game.
 - **Q-Learning**: A popular reinforcement learning algorithm, applied here to teach an AI to play Tic-Tac-Toe.
-
-## License
-
-This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it.
-
-```
-
-This `README.md` provides a clear and structured overview of the project, including installation instructions, gameplay details, functions, and Q-learning explanation. It's designed for easy understanding and can be used to guide others through setting up and running the project.
