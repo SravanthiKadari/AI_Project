@@ -117,13 +117,13 @@ Where:
 - \(\gamma\) is the discount factor
 - \(\max_a Q(s', a)\) is the maximum expected future reward from the next state \(s'\)
 
-### Some rules for the game of tic-tac-toe:
+### Some rules for the game of tic-tac-toe
 
-**Board:** The game is played on a 3-by-3 grid. 
-**Players:** Two players take turns marking the grid with X or O. X always goes first, for first game after that who wins it will take first chance to draw it's symbol.
-**Objective:** The first player to get three marks in a row (up, down, across, or diagonally) wins. 
-**Tie:** If all nine squares are filled and no player has three marks in a row, the game ends in a tie, also known as a cat game. 
-**Strategy:** Tic-tac-toe is a solved game, meaning there's a strategy to win every time. However, if both players use the same strategy, the game will always end in a draw. 
+-**Board:** The game is played on a 3-by-3 grid. 
+-**Players:** Two players take turns marking the grid with X or O. X always goes first, for first game after that who wins it will take first chance to draw it's symbol.
+-**Objective:** The first player to get three marks in a row (up, down, across, or diagonally) wins. 
+-**Tie:** If all nine squares are filled and no player has three marks in a row, the game ends in a tie, also known as a cat game. 
+-**Strategy:** Tic-tac-toe is a solved game, meaning there's a strategy to win every time. However, if both players use the same strategy, the game will always end in a draw. 
 
 ## Project Structure
 
