@@ -139,5 +139,5 @@ AI_Project/
 
 ## Result look_like
 
-<p align="center"><img src="finalresult.png" width="600" height="600" /></p>
+<p align="center"><img src="finalresult.png" width="756" height="777" /></p>
 
