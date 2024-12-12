@@ -105,8 +105,7 @@ The AI is trained over several **episodes**, where it plays against itself. Duri
 - **Exploitation:** With probability (1 - ε), the AI chooses the action that maximizes the expected future reward, which is stored in the Q-table.
 - **Q-value Update Formula:**
 
-  **Q(s,a) ← Q(s,a) + α(r + γmaxQ(s',a') − Q(s,a))**
-
+### `Q(s,a) ← Q(s,a) + α(r + γmaxQ(s',a') − Q(s,a))`
 Where:
 - \(s\) is the current state
 - \(a\) is the action taken
