@@ -103,16 +103,17 @@ The AI is trained over several **episodes**, where it plays against itself. Duri
 
 - **Exploration:** With probability ε, the AI chooses a random action (move).
 - **Exploitation:** With probability (1 - ε), the AI chooses the action that maximizes the expected future reward, which is stored in the Q-table.
-- **Q-value Update Formula:** Q(s,a)←Q(s,a)+α(r+γmaxQ(s',a')−Q(s,a))
+- **Q-value Update Formula:**
 
+- \[Q(s,a) ← Q(s,a) + α(r + γmaxQ(s',a') − Q(s,a))\]
 
 Where:
 - \(s\) is the current state
 - \(a\) is the action taken
 - \(r\) is the immediate reward received
-- \(\alpha\) is the learning rate
-- \(\gamma\) is the discount factor
-- \(\max_a Q(s', a)\) is the maximum expected future reward from the next state \(s'\)
+- \(α\) is the learning rate
+- \(γ\) is the discount factor
+- \(maxQ(s', a')\) is the maximum expected future reward from the next state \(s'\)
 
 ## Some rules for the game of tic-tac-toe
 
