@@ -106,7 +106,7 @@ The AI is trained over several **episodes**, where it plays against itself. Duri
 - **Q-value Update Formula:**
   
   \[
-  Q(s, a) \leftarrow Q(s, a) + \alpha \cdot \left( r + \gamma \cdot \max_a Q(s', a) - Q(s, a) \right)
+  Q(s,a)←Q(s,a)+α(r+γmaxQ(s',a')−Q(s,a))
   \]
 
 Where:
